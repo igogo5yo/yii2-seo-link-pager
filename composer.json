@@ -1,0 +1,28 @@
+{
+    "name": "igogo5yo/yii2-seo-link-pager",
+    "description": "LinkPager with SEO optimization for Yii Framework 2",
+    "keywords": [
+        "seo",
+        "rel=\"prev\"",
+        "rel=\"next\"",
+        "igogo5yo",
+        "yii2",
+        "framework"
+    ],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Skliar Ihor",
+            "email": "skliar.ihor@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "igogo5yo\\seolinkpager\\": ""
+        }
+    }
+}

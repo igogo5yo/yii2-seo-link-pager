@@ -3,8 +3,9 @@
     "description": "LinkPager with SEO optimization for Yii Framework 2",
     "keywords": [
         "seo",
-        "rel=prev",
-        "rel=next",
+        "rel",
+        "prev",
+        "next",
         "igogo5yo",
         "yii2",
         "framework"

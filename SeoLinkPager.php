@@ -1,5 +1,5 @@
 <?php
-namespace app\components;
+namespace igogo5yo\seolinkpager;
 
 use yii\widgets\LinkPager;
 
@@ -15,7 +15,7 @@ class SeoLinkPager extends LinkPager
      * @var array the HTML attributes for previous link.
      */
     public $prevOptions = ['rel' => 'prev'];
-    
+
     /**
      * @var array the HTML attributes for next link.
      */

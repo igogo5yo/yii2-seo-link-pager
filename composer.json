@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "igogo5yo\\seolinkpager\\": ""
+            "igogo5yo\\seolinkpager\\": "src"
         }
     }
 }

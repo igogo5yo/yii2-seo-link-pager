@@ -37,7 +37,8 @@ class SeoLinkPager extends LinkPager
         $currentPage = $this->pagination->getPage();
         if ($class == $this->prevPageCssClass || (int)$label == $currentPage) {
             $linkOptions = ArrayHelper::merge($linkOptions, $this->prevOptions);
-        } elseif ($class == $this->nextPageCssClass || (int)$label == ($currentPage + 2)) {
+        }
+        if ($class == $this->nextPageCssClass || (int)$label == ($currentPage + 2)) {
             $linkOptions = ArrayHelper::merge($linkOptions, $this->nextOptions);
         }
 

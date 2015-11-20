@@ -35,10 +35,11 @@ class SeoLinkPager extends LinkPager
         $linkOptions['data-page'] = $page;
 
         $currentPage = $this->pagination->getPage();
+        if ($class == $this->prevPageCssClass || (int)$label == $currentPage) {
+            $linkOptions = ArrayHelper::merge($linkOptions, $this->prevOptions);
+        }
         if ($class == $this->nextPageCssClass || (int)$label == ($currentPage + 2)) {
             $linkOptions = ArrayHelper::merge($linkOptions, $this->nextOptions);
-        } elseif ($class == $this->prevPageCssClass || (int)$label == $currentPage) {
-            $linkOptions = ArrayHelper::merge($linkOptions, $this->prevOptions);
         }
 
         return Html::tag('li', Html::a($label, $this->pagination->createUrl($page), $linkOptions), $options);

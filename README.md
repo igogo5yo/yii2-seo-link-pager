@@ -1,4 +1,4 @@
-# yii2-seo-link-pager
+# SeoLinkPager extension for Yii Framework 2
 
 [![Latest Stable Version](https://poser.pugx.org/igogo5yo/yii2-seo-link-pager/v/stable)](https://packagist.org/packages/igogo5yo/yii2-seo-link-pager) [![Total Downloads](https://poser.pugx.org/igogo5yo/yii2-seo-link-pager/downloads)](https://packagist.org/packages/igogo5yo/yii2-seo-link-pager) [![License](https://poser.pugx.org/igogo5yo/yii2-seo-link-pager/license)](https://packagist.org/packages/igogo5yo/yii2-seo-link-pager) [![Dependency Status](https://www.versioneye.com/user/projects/55686ea96365320026021300/badge.svg?style=flat)](https://www.versioneye.com/user/projects/55686ea96365320026021300)
 
